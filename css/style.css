@@ -541,10 +541,10 @@ a.nav-brand.light
 .article {
   background-color: #fff;
   padding: 15px;
-  border: 1px solid;
-  margin-bottom: 30px;
+  /* border: 1px solid; */
   text-align: center;
-  border-radius: 5px;
+  /* border-radius: 5px; */
+  /* padding: 0.5rem; */
 }
 
 .section-padding-0-100 {
@@ -1615,12 +1615,24 @@ p.artficial:before {
 }
 
 .article__title {
-  font-size: 18px;
+  font-size: 25px;
   margin-top: 8px;
   color: #333;
+  max-width: 100px;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .article__title {
+    font-size: 25px;
+    margin-top: 8px;
+    max-width: 100%;
+    color: #333;
+    text-align: center;
+  }
 }
 
 /*** 
+
 
 ====================================================================
   services-block-four style
@@ -2354,7 +2366,7 @@ p.artficial:before {
   width: 100%;
   left: 0;
   height: 4px;
-  background-color: #5892f5;
+  background-color: #9208fe;
   position: relative;
   border-radius: 3px;
 }
@@ -2554,7 +2566,8 @@ p.artficial:before {
   display: block;
   width: 1px;
   height: 40px;
-  background-color: #5892f5;
+  background-color: #9211fc;
+  /* background-color: #fff; */
   left: -webkit-calc(50% - 1px);
   left: -moz-calc(50% - 1px);
   left: calc(50% - 1px);
@@ -4940,9 +4953,4 @@ body.light-version {
 
 .preview-demo:hover {
   color: #333;
-}
-
-.rounded-corners,
-.rounded-corners::after {
-  border-radius: 10px !important;
 }

@@ -25,7 +25,12 @@
 
     <!-- Responsive Stylesheet -->
     <link rel="stylesheet" href="css/responsive.css">
-
+    <link rel="stylesheet" href="./css/newstyles.css">
+    <style>
+        *{
+            font-family: "Avenir LT Std";
+        }
+    </style>
 </head>
 
 <body class="light-version">
@@ -142,7 +147,7 @@
 
 
 
-    <section class="currency section-padding-100" style="padding-bottom:70px;background:url('img/svg/benefits-bg.svg') no-repeat center left;" id="about">
+    <section class="currency section-padding-100" style="padding-bottom:70px;" id="about">
         <div class="container">
             <div class="section-heading text-center what-is-sec">
                 <!-- Dream Dots -->
@@ -150,56 +155,59 @@
                     <img src="img/svg/section-icon-1.svg" alt="">
                 </div>
                 <h2 class="b-text fadeInUp " data-wow-delay="0.3s">What is Impulse Ven</h2>
-                <p class="wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">ImpulseVen is an DeFi ecosystem that offers a range of DeFi solutions in one package. Built on the Ethereum blockchain and powered by ERC20 VEN token, the platform is on a mission to make DeFi solutions accessible to all by offering an
+                <!-- <p class="wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">ImpulseVen is an DeFi ecosystem that offers a range of DeFi solutions in one package. Built on the Ethereum blockchain and powered by ERC20 VEN token, the platform is on a mission to make DeFi solutions accessible to all by offering an
                     easy-to-use platform with highest standards of transparency, security and reliability. The platform includes a state-of-the art decentralized exchange, AI-based arbitrage trading bot, lending platform, decentralized recurring billing,
-                    yield farming and staking rewards, and more.</p>
+                    yield farming and staking rewards, and more.</p> -->
             </div>
-            <div class="row">
+            <div class="row card-container">
 
-                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                <div class="cards">
                     <a href="#">
-                        <div class="article box-shadow">
-                            <img src="img/icon/DEX.png">
+                        <div class="article">
+                            <img src="images/abtImages/decentralizedExchange.png" width="120px">
                             <h3 class="article__title">Decentralized Exchange
                             </h3>
                         </div>
                     </a>
                 </div>
 
-                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                <div class="cards">
                     <a href="#">
-                        <div class="article box-shadow">
-                            <img src="img/icon/Arbitrage.png">
+                        <div class="article">
+                            <img src="images/abtImages/arbitrageTrading.png" width="120px">
                             <h3 class="article__title">Arbitrage Trading
                             </h3>
                         </div>
                     </a>
                 </div>
 
-                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                <div class="cards">
                     <a href="#">
-                        <div class="article box-shadow">
-                            <img src="img/icon/lending.png">
+                        <div class="article">
+                            <img src="images//abtImages/lendingPlatform.png" width="120px">
                             <h3 class="article__title">Lending Platform
                             </h3>
                         </div>
                     </a>
                 </div>
 
-                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                <div class="cards">
                     <a href="#">
-                        <div class="article box-shadow">
-                            <img src="img/icon/receipt.png">
+                        <div class="article">
+                            <img src="images//abtImages/recurringBilling.png" width="120px">
                             <h3 class="article__title">Recurring Billing
                             </h3>
                         </div>
                     </a>
                 </div>
 
-                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                <div class="cards">
                     <a href="#">
-                        <div class="article box-shadow">
-                            <img src="img/icon/receipt.png">
+                        <div class="article">
+                            <div class="yieldFarmingContainer">
+                                <img src="images//abtImages/yieldFarming.png" width="120px">
+                                <img src="images/abtImages/yieldFarmingInside.png" class="yieldFarmingLogo">
+                            </div>
                             <h3 class="article__title">
                                 Yield/Liquidity Farming
                             </h3>
@@ -207,10 +215,10 @@
                     </a>
                 </div>
 
-                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                <div class="cards">
                     <a href="#">
-                        <div class="article box-shadow">
-                            <img src="img/icon/Rewards.png">
+                        <div class="article">
+                            <img src="images//abtImages/stakingRewards.png" width="100px">
                             <h3 class="article__title">Staking Rewards </h3>
                         </div>
                     </a>
@@ -220,7 +228,7 @@
 
         </div>
     </section>
-    <section class="features section-padding-100-0" style="padding-bottom:70px; background: url(img/svg/bg_hero.svg) no-repeat center right;     border-top: 1px solid #eee;" id="key-features">
+    <section class="features section-padding-100-0" style="padding-bottom:70px; border-top: 1px solid #eee;" id="key-features">
 
         <div class="section-heading text-center">
             <!-- Dream Dots -->
@@ -314,7 +322,7 @@
 
         </div>
     </section>
-    <section class="roadmap section-padding-100" style="background: url(img/bg-img/bread-bg.png) no-repeat center top;background-size: cover;" id="roadmap">
+    <section class="roadmap section-padding-100" style="background-size: cover;" id="roadmap">
         <div class="section-heading text-center">
             <!-- Dream Dots -->
             <div class="dream-dots justify-content-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
@@ -419,7 +427,7 @@
         </div>
     </section>
 
-    <div class="download-whitepaper-area section-padding-100" style="background: url(img/bg-img/cryptic-currency6.jpg) no-repeat center top;background-size: cover; padding-bottom:70px" id="down-whiteper">
+    <div class="download-whitepaper-area section-padding-100" style="background-size: cover; padding-bottom:70px" id="down-whiteper">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-7 col-md-12">
@@ -432,38 +440,47 @@
                         <p class="fadeInUp" data-wow-delay="0.4s" style="margin-left:0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
                     </div>
 
-                    <div class="row">
+                    <div class="row whitepaper-cards-container">
 
-                        <div class="col-md-4">
+                        <div class="col-md-4 ">
                             <a href="#">
-                                <div class="article box-shadow">
-                                    <i class="ui-content-download article__icon">
-		                            <img src="img/flags/uk.png" class="flag-img" alt="">
-		                        </i>
-                                    <h3 class="article__title">English</h3>
+                                <div class="whitepaper-cards">
+                                 <div class="imgContainer">   
+                                     <img src="./images/abtImages/whitepaper.png" alt="whitepaper" width="60%">
+                                </div>
+                                    <button class="flagBtn">
+                                        <img src="./images/abtImages/ukflag.png" alt="uk flag"> 
+                                        <span class="lang-name">English</span>
+                                    </button>
                                 </div>
                             </a>
                         </div>
 
                         <div class="col-md-4">
                             <a href="#">
-                                <div class="article box-shadow">
-                                    <i class="ui-content-download article__icon">
-		                            <img src="img/flags/fr.png" class="flag-img" alt="">
-		                        </i>
-                                    <h3 class="article__title">French</h3>
-                                </div>
+                                <div class="whitepaper-cards">
+                                    <div class="imgContainer">   
+                                        <img src="./images/abtImages/whitepaper.png" alt="whitepaper" width="60%">
+                                   </div>
+                                       <button class="flagBtn">
+                                           <img src="./images/abtImages/franceflag.png" alt="uk flag"> 
+                                           <span class="lang-name">French</span>
+                                       </button>
+                                   </div>
                             </a>
                         </div>
 
                         <div class="col-md-4">
                             <a href="#">
-                                <div class="article box-shadow">
-                                    <i class="ui-content-download article__icon">
-		                            <img src="img/flags/cn.png" class="flag-img" alt="">
-		                        </i>
-                                    <h3 class="article__title">Chinese</h3>
-                                </div>
+                                <div class="whitepaper-cards">
+                                    <div class="imgContainer">   
+                                        <img src="./images/abtImages/whitepaper.png" alt="whitepaper" width="60%">
+                                   </div>
+                                       <button class="flagBtn">
+                                           <img src="./images/abtImages/chinaflag.png" alt="uk flag"> 
+                                           <span class="lang-name">Chinese</span>
+                                       </button>
+                                   </div>
                             </a>
                         </div>
 
@@ -533,7 +550,7 @@
         </div>
     </div>
 
-    <section class="token-distribution section-padding-100" style="background: url(img/bg-img/cryptic-currency6.jpg) no-repeat center top;background-size: cover; padding-bottom:70px" id="tokenomics">
+    <section class="token-distribution section-padding-100" style="background-size: cover; padding-bottom:70px" id="tokenomics">
         <div class="container">
 
             <div class="section-heading text-center">
@@ -546,7 +563,9 @@
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <!-- <h2 class="text-center mb-30">Token Allocation</h2> -->
                 <div class="token-allocation">
-                    <img src="img/tokenomics.png" class="center-block " alt=" ">
+                    <!-- <img src="mg/tokenomics.png" class="center-block " alt=" "> -->
+
+                    <img src="images/abtImages/piechart.png" class="center-block " alt="piechart" width="90%">
                 </div>
                 <!-- <div class="col-lg-6 col-md-6 col-sm-12 ">
                     <h2 class="text-center mb-30 ">Token Distrbution</h2>
@@ -557,7 +576,8 @@
             </div>
 
     </section>
-    <section class="our_team_area section-padding-100-0 clearfix " id="team " style="background:url('img/bg-img/sectionbg.jpg') no-repeat center left;" id="team">
+    <section class="our_team_area section-padding-100-0 clearfix " id="team " style="background-color:  #15081C;
+;" id="team">
         <div class="container ">
             <div class="row ">
                 <div class="col-12 ">
@@ -571,86 +591,47 @@
             </div>
 
             <div class="row ">
-                <!-- Single Team Member -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-team-member fadeInUp rounded-corners" data-wow-delay="0.2s ">
-                        <!-- Image -->
-                        <div class="team-member-thumb rounded-corners">
-                            <img src="img/team-img/avatar2.png " class="center-block rounded-corners" alt=" " >
+                <!-- Single Team Member  <img src="img/team-img/avatar2.png " -->
+                <div class="team-card-main-container">
+                    <div class="team-card-container">
+                        <div class="team-cards">
+                            <div class="img-container"><img src="images/abtImages/dummyimage.png" alt="avatar" width="70%"></div>
+                            <div class="team-name">CORA NG-KORIMBOCUS</div>
+                            <div class="team-position">CEO</div>
+                            <div class="social-media-container">
+                                <div class="twitter"><img src="./images/abtImages/twitter.png" alt="twitter"></div>
+                                <div class="linkedin"><img src="./images/abtImages/linkedin.png" alt="linkedin"></div>
+                            </div>
                         </div>
-                        <!-- Team Info -->
-                        <div class="team-info ">
-                            <h5>Cora Ng-Korimbocus</h5>
-                            <p>Chief Operating Officer</p>
+<div class="team-cards">
+                            <div class="img-container"><img src="images/abtImages/dummyimage.png" alt="avatar" width="70%"></div>
+                            <div class="team-name">BENITO ELISA</div>
+                            <div class="team-position">CHIEF FINANCIAL ADVISOR</div>
+                            <div class="social-media-container">
+                                <div class="twitter"><img src="./images/abtImages/twitter.png" alt="twitter"></div>
+                                <div class="linkedin"><img src="./images/abtImages/linkedin.png" alt="linkedin"></div>
+                            </div>
                         </div>
-                        <!-- Social Icon -->
-                        <div class="team-social-icon ">
-                            <a href="# "><i class="fa fa-twitter "></i></a>
-                            <a href="# "><i class="fa fa-linkedin "></i></a>
+<div class="team-cards">
+                            <div class="img-container"><img src="images/abtImages/dummyimage.png" alt="avatar" width="70%"></div>
+                            <div class="team-name">KRYSTELLE GALANO</div>
+                            <div class="team-position">CHIEF PARTNERSHIP OFFICER</div>
+                            <div class="social-media-container">
+                                <div class="twitter"><img src="./images/abtImages/twitter.png" alt="twitter"></div>
+                                <div class="linkedin"><img src="./images/abtImages/linkedin.png" alt="linkedin"></div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-
-                <!-- Single Team Member -->
-                <div class="col-12 col-sm-6 col-lg-3 ">
-                    <div class="single-team-member fadeInUp rounded-corners" data-wow-delay="0.3s ">
-                        <!-- Image -->
-                        <div class="team-member-thumb ">
-                            <img src="img/team-img/avatar2.png " class="center-block rounded-corners" alt=" ">
+<div class="team-cards">
+                            <div class="img-container"><img src="images/abtImages/dummyimage.png" alt="avatar" width="70%"></div>
+                            <div class="team-name">AMIT DEBNATH</div>
+                            <div class="team-position">LEAD DEVELOPER</div>
+                            <div class="social-media-container">
+                                <div class="twitter"><img src="./images/abtImages/twitter.png" alt="twitter"></div>
+                                <div class="linkedin"><img src="./images/abtImages/linkedin.png" alt="linkedin"></div>
+                            </div>
                         </div>
-                        <!-- Team Info -->
-                        <div class="team-info ">
-                            <h5>Benito Elisa</h5>
-                            <p>Chief Financial Advisor </p>
-                        </div>
-                        <!-- Social Icon -->
-                        <div class="team-social-icon ">
-                            <a href="# "><i class="fa fa-twitter "></i></a>
-                            <a href="# "><i class="fa fa-linkedin "></i></a>
-                        </div>
-                    </div>
-                </div>
-				                <!-- Single Team Member -->
-                <div class="col-12 col-sm-6 col-lg-3 ">
-                    <div class="single-team-member fadeInUp  rounded-corners" data-wow-delay="0.3s ">
-                        <!-- Image -->
-                        <div class="team-member-thumb ">
-                            <img src="img/team-img/avatar2.png " class="center-block  rounded-corners" alt=" ">
-                        </div>
-                        <!-- Team Info -->
-                        <div class="team-info ">
-                            <h5>Krystelle Galano</h5>
-                            <p>Chief Partnership Officer </p>
-                        </div>
-                        <!-- Social Icon -->
-                        <div class="team-social-icon ">
-                            <a href="# "><i class="fa fa-twitter "></i></a>
-                            <a href="# "><i class="fa fa-linkedin "></i></a>
-                        </div>
-                    </div>
-                </div>
-				                <!-- Single Team Member -->
-                <div class="col-12 col-sm-6 col-lg-3 ">
-                    <div class="single-team-member fadeInUp  rounded-corners" data-wow-delay="0.3s ">
-                        <!-- Image -->
-                        <div class="team-member-thumb ">
-                            <img src="img/team-img/avatar2.png " class="center-block  rounded-corners" alt=" ">
-                        </div>
-                        <!-- Team Info -->
-                        <div class="team-info ">
-                            <h5>Amit Debnath</h5>
-                            <p>Lead Developer</p>
-                        </div>
-                        <!-- Social Icon -->
-                        <div class="team-social-icon ">
-                            <a href="# "><i class="fa fa-twitter "></i></a>
-                            <a href="# "><i class="fa fa-linkedin "></i></a>
-                        </div>
-                    </div>
-                </div>
 
 
-                // Extra 
                <!-- <div class="col-12 col-sm-6 col-lg-3 ">
                     <div class="single-team-member fadeInUp " data-wow-delay="0.3s ">
                         <div class="team-member-thumb ">
