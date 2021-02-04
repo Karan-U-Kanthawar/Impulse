@@ -1615,7 +1615,7 @@ p.artficial:before {
 }
 
 .article__title {
-  font-size: 25px;
+  font-size: 23px;
   margin-top: 8px;
   color: #333;
   max-width: 100px;
@@ -1623,7 +1623,7 @@ p.artficial:before {
 }
 @media (max-width: 500px) {
   .article__title {
-    font-size: 25px;
+    font-size: 23px;
     margin-top: 8px;
     max-width: 100%;
     color: #333;

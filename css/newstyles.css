@@ -230,6 +230,33 @@
   .footer-social-info img {
     margin: 7px;
   }
+  .lang-name {
+    font-size: 10px;
+    margin: 0 2px;
+  }
+  .flagBtn > img {
+    width: 30%;
+  }
+  .imgContainer {
+    padding: 1rem;
+  }
+  .imgContainer > img {
+    width: 100%;
+  }
+  #name {
+    margin-bottom: 1rem;
+  }
+  #section_5-slider-circle .data_cir:nth-child(2n + 1) .data_cir-content {
+    min-width: 100px;
+    width: 100%;
+  }
+  #section_5-slider-circle .data_cir:nth-child(2n) .data_cir-content {
+    min-width: 100px;
+    width: 100%;
+  }
+  .section-heading {
+    margin: 0;
+  }
 }
 
 /* @media (max-width: 376px) {
