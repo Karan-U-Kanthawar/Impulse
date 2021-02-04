@@ -220,10 +220,20 @@
   #section_5-slider-circle .data_cir .data_cir-content ul li {
     padding-left: 0;
   }
+  .footer-social-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .vertical-social {
+    display: none !important;
+  }
+  .footer-social-info img {
+    margin: 7px;
+  }
 }
 
-@media (max-width: 376px) {
+/* @media (max-width: 376px) {
   #section_5-slider-circle .data_cir {
     margin-left: 167px;
   }
-}
+} */
