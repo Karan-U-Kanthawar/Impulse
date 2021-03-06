@@ -33,7 +33,7 @@
   background-color: #fff;
   border-radius: 30px;
 }
-.cards:hover {
+/* .cards:hover {
   margin: 1rem;
   text-align: center;
   display: flex;
@@ -46,7 +46,9 @@
   background-color: #fff;
   border-radius: 30px;
   box-shadow: 0 0 2px 2px #ececec;
-}
+  background-color: transparent;
+  perspective: 1000px;
+} */
 
 #section_5-slider-circle .data_cir {
   background-color: white;
@@ -282,4 +284,49 @@
   width: 100%;
   border-radius: 100px;
   padding: 10px;
+}
+
+.flip-card-inner {
+  color: black;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  color: black;
+}
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+.flip-card-back {
+  padding: 5px;
+  transform: rotateY(180deg);
+  color: black;
+  font-weight: 500;
+}
+
+.roadmap_content_info {
+  font-weight: 700;
+}
+
+.roadmap_content_info > ul > li > span {
+  font-size: 12px;
 }
